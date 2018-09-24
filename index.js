@@ -1,7 +1,7 @@
-function isValidDate (date) {
+exports.isVAliDate = function isValidDate (date) {
 return typeof date === 'string' && moment(date, DATE_FORMAT, true).isValid()
 }
-async function isAdmin (robot, username) {
+exports.isAdmin = async function isAdmin (robot, username) {
     try {
       const info = await robot.adapter.api.get('users.info', { username: username })
 

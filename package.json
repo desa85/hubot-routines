@@ -15,5 +15,10 @@
     "hubot-scripts"
   ],
   "author": "Buchenko Denis <85desa@gmail.com>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "scripts": { 
+    "start": "node server.js" 
+  }, 
+  "license": "MIT" 
 }
+
