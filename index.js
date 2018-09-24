@@ -1,4 +1,4 @@
-exports.isVAliDate = function isValidDate (date) {
+exports.isValiDate = function isValidDate (date) {
 return typeof date === 'string' && moment(date, DATE_FORMAT, true).isValid()
 }
 exports.isAdmin = async function isAdmin (robot, username) {
