@@ -1,0 +1,15 @@
+{
+  "name": "hubot-function",
+  "version": "0.0.1",
+  "description": "functions for hubot-bot",
+  "main": "src/scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "author": "Buchenko Denis <85desa@gmail.com>",
+  "license": "Apache-2.0"
+}
